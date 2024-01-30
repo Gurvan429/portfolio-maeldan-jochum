@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app">
+    <HeaderComponent/>
+    <SectionComponent title="Welcome" picture="../assets/Jochum_Maeldan_Antre_Compo_Nuit.png"/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import SectionComponent from "@/components/SectionComponent.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SectionComponent,
+    HeaderComponent,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+
+body{
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #4F4D49;
 }
 </style>
