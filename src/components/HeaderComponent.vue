@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1 class="name">{{ titre }}</h1>
+    <h1 class="name">{{ title }}</h1>
   </header>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'HeaderComponent',
   data() {
     return {
-      titre: "Maeldan JOCHUM",
+      title: "Maeldan JOCHUM",
     };
   }
 };
