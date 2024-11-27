@@ -25,6 +25,6 @@ body{
   margin: 0;
   list-style: none;
   text-decoration: none;
-  background-color: #4F4D49;
+  background-color: #000000;
 }
 </style>
