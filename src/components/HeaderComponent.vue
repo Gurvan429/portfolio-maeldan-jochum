@@ -2,26 +2,24 @@
   <header>
     <ul>
       <li>
-        <a class="zoom" href="#"><div>{{this.$t('header.portfolio')}}</div></a>
+        <a class="zoom" href="#home"><div>{{this.$t('header.home')}}</div></a>
       </li>
       <li>
-        <a class="zoom" href="#"><div>{{this.$t('header.about')}}</div></a>
+        <a class="zoom" href="#portfolio"><div>{{this.$t('header.portfolio')}}</div></a>
       </li>
       <li>
-        <a class="zoom" href="#">
-          <div>
-            <img src="../assets/home.png" alt="Logo" />
-          </div>
-        </a>
+        <a class="zoom" href="#demoreel"><div>{{this.$t('header.demoreel')}}</div></a>
       </li>
       <li>
-        <a class="zoom" href="#"><div>{{this.$t('header.contact')}}</div></a>
+        <a class="zoom" href="#aboutMe"><div>{{this.$t('header.about')}}</div></a>
       </li>
+
       <li>
-        <a class="zoom" href="#"><div>{{this.$t('header.demoreel')}}</div></a>
+        <a class="zoom" href="#contact"><div>{{this.$t('header.contact')}}</div></a>
       </li>
+
     </ul>
-    <div>
+    <div id="languageSelector">
       <select @change="changeLanguage" :value="currentLanguage">
         <option value="fr">Français</option>
         <option value="en">English</option>
@@ -49,57 +47,61 @@ export default {
 };
 </script>
 
+
 <style>
+
 header{
-  height: 50px;
-  background-color: #242424;
+  height: 2vw;
+  background-color: #4f4d49;
   display: flex;
-  border-bottom: 1px solid black;
-  box-shadow: 0px 0px 5px black;
+  border-bottom: 1px solid #242424;
+  box-shadow: 1px 1px 5px #242424;
   position: sticky;
   top: 0;
-  justify-content: space-between;
-}
-
-.name{
-  margin: 1rem;
-  font-size: 1.5rem;
+  justify-content: center;
+  z-index: 1;
 }
 
 ul{
   list-style: none;
   display: flex;
-  margin: auto;
   justify-content: space-evenly;
   align-items: center;
-  width: 750px;
+  width: 40%;
   li{
     a{
       text-decoration: none;
+      text-shadow: 1px 1px 2px rgba(120, 120, 120, 0.7); /* Ombre pour rendre le texte lisible */
       color: #dddddd;
-      font-weight: bold;
-      text-transform: uppercase;
       font-family: "Cambria",sans-serif;
-      font-size: 18px;
+      font-size: 0.9vw;
+      text-transform: uppercase;
     }
     .zoom div {
-      transition: transform 0.2s ease, filter 0.4s ease;
+      transition: filter 0.4s ease;
     }
+
     .zoom:hover div{
-      transform: scale(1.007);
-      filter: opacity(0.9);
+      filter: opacity(0.7);
     }
+
+      /*------------------------------------------------------------
+
     .zoom:hover div img{
       transform: scale(1.05);
       filter: opacity(0.9);
     }
-
 
     img{
       width: 32px;
       height: 32px
     ;
     }
+
+    --------------------------------------------------------------------*/
+
   }
 }
+
+
 </style>

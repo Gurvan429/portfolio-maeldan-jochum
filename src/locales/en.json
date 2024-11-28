@@ -3,6 +3,17 @@
         "portfolio": "Portfolio",
         "about": "About Me",
         "contact": "Contact",
-        "demoreel": "Demoreel"
+        "demoreel": "Demoreel",
+        "home": "Home"
+    },
+    "banner": {
+        "name": "Maëldan JOCHUM",
+        "job": "CGI Artist"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "demoreel": {
+        "title": "Demoreel"
     }
 }

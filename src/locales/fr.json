@@ -3,6 +3,17 @@
         "portfolio": "Portfolio",
         "about": "A Propos",
         "contact": "Me contacter",
-        "demoreel": "Demoreel"
+        "demoreel": "Demoreel",
+        "home": "Accueil"
+    },
+    "banner": {
+        "name": "Maëldan JOCHUM",
+        "job": "Artiste 3D"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "demoreel": {
+        "title": "Demoreel"
     }
 }
