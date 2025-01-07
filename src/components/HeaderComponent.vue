@@ -14,9 +14,9 @@
         <a class="zoom" href="#aboutMe"><div>{{this.$t('header.about')}}</div></a>
       </li>
 
-      <li>
-        <a class="zoom" href="#contact"><div>{{this.$t('header.contact')}}</div></a>
-      </li>
+<!--      <li>-->
+<!--        <a class="zoom" href="#contact"><div>{{this.$t('header.contact')}}</div></a>-->
+<!--      </li>-->
 
     </ul>
     <div id="languageSelector">
@@ -84,21 +84,6 @@ ul{
     .zoom:hover div{
       filter: opacity(0.7);
     }
-
-      /*------------------------------------------------------------
-
-    .zoom:hover div img{
-      transform: scale(1.05);
-      filter: opacity(0.9);
-    }
-
-    img{
-      width: 32px;
-      height: 32px
-    ;
-    }
-
-    --------------------------------------------------------------------*/
 
   }
 }

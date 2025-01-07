@@ -8,12 +8,42 @@
     },
     "banner": {
         "name": "Maëldan JOCHUM",
-        "job": "CGI Artist"
+        "job": "CGI Artist student"
     },
     "portfolio": {
-        "title": "Portfolio"
+        "title": "Portfolio",
+        "tooltip": "Click to see more of the project !"
+    },
+    "carrousel": {
     },
     "demoreel": {
         "title": "Demoreel"
+    },
+    "resume": {
+        "title": "ABOUT MAËLDAN JOCHUM",
+        "content1": "My name is Maëldan Jochum, I am 21 years old, and I am a 3D animation student at ESMA (Ecole Supérieure des Métiers Artistiques).  I had the opportunity to take drawing classes at the public courses of the Beaux-Arts in Nantes for one year.",
+        "content2": "I have been passionate about the arts for several years, particularly 3D animated films and drawing.",
+        "content3": "I am especially fond of the steampunk style, miniature model effects, and stop-motion animation."
+    },
+    "reven": {
+        "title": "REVEN"
+    },
+    "insect": {
+        "title": "INSECT"
+    },
+    "heroesLair": {
+        "title": "HEROES LAIR"
+    },
+    "breakfast": {
+        "title": "BREAKFAST"
+    },
+    "desk": {
+        "title": "DESK"
+    },
+    "teapot": {
+        "title": "TEAPOT"
+    },
+    "timelapse": {
+        "title": "TIMELAPSE"
     }
 }
