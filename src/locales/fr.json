@@ -1,0 +1,78 @@
+{
+    "header": {
+        "portfolio": "Portfolio",
+        "about": "A Propos",
+        "contact": "Me contacter",
+        "demoreel": "Demoreel",
+        "home": "Accueil"
+    },
+    "banner": {
+        "name": "Maëldan JOCHUM",
+        "job": "Etudiant artiste 3D"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "tooltip": "Cliquez ici pour en voir plus sur le projet !"
+    },
+    "demoreel": {
+        "title": "Demoreel"
+    },
+    "resume": {
+        "title": "A PROPOS DE MAËLDAN JOCHUM",
+        "content1": "Je m’appelle Maëldan Jochum, j’ai 21 ans et je suis étudiant en cursus d’animation 3D à l’ESMA (Ecole Supérieure des Métiers Artistiques). J’ai eu l’occasion de suivre des cours de dessin aux cours publiques des Beaux-Arts de Nantes pendant un an. ",
+        "content2": "Je suis passionné depuis plusieurs années par les domaines artistiques et plus précisément le cinéma d’animation 3D et le dessin",
+        "content3": " J’aime beaucoup le style steampunk, effet maquette ainsi que le stopmotion."
+    },
+    "reven": {
+        "title": "REVEN",
+        "intro": "J’ai eu l’opportunité de faire un stage de deux mois au sein de l’équipe du film de fin d’étude Reven. En tant que stagiaire je me suis occupé principalement du lighting, rendu et compositing de certains shots. J’ai aussi réalisé un camera mapping ainsi que la modélisation et le surfacing de certains objets."
+    },
+    "insect": {
+        "title": "INSECTE",
+        "intro": "L’objectif de ce projet était de créer un insecte dans son entiereté en pensant à ce qu'il mange, où il vit pour qu'il soit le plus réel possible. J'ai choisi de réaliser un insecte ressemblant à un scarabée.",
+        "references" : "J'ai tout d'abord cherché des références de scarabées existant pour pouvoir m'en inspirer. Grâce à ces références j'ai réalisé des croquis de ce à quoi pourrait ressembler le scarabée. J'ai ensuite réfléchi à son environnement, ayant en tête qu'il se nourrit de champignons et d'écorces j'ai donc centré mes recherches autour de ces éléments.",
+        "production": "La modélisation du scarabée a été intéressante car c'était la première fois que je réalisait un être vivant. Je l'ai modéliser de manière à garder les caractéristiques auxquelles j'ai pensé durant mes recherches, notamment les grandes cornes sur sa carapace lui permettant de se défendre. Les textures ont elles aussi été interessantes à réaliser car des nombreuses variations sont présentes entre la carapace, le corps et les poils. Il a aussi fallu penser à la manière dont le scarabée vit pour pouvoir amener du réalisme dans les textures.",
+        "lightAndCompo": "Pour l’ambiance lumineuse je suis parti sur une ambiance chaleureuse de fin de journée mettant en avant l'insecte et son environnement. Le compositing m'a aussi permis d'accentuer mon ambiance lumineuse ainsi que d'apporter plus de réalisme et de vit avec la profondeur de champ l'ajout de particules, d'une perspective atmosphérique et d'autres détails."
+    },
+    "heroesLair": {
+        "title": "ANTRE DU HERO",
+        "intro": "L’objectif de ce projet était de choisir un personnage fictif et de lui créer ce qui pourrait être son antre. J'ai choisi le personnage de Harold dans la trilogie How to train your dragon du studio Dreamworks. J'ai choisi de lui créer une sorte d'établi dans lequel il viendrait créer et entreposer ses inventions qu'il fabrique pour Krokmou et lui.",
+        "references" : "J'ai d'abord cherché des références dans les films et les artbooks de la trilogie pour trouver les différents éléments les plus important tout au long des films qui pourraient être présents dans son établi. J'ai aussi cherché des références de ce à quoi pourrait ressembler l'établi. J'ai ensuite fait des croquis pour les différents éléments et l'architecture du lieu, cela m'a aussi permis de trouver le cadrage pour l'image.",
+        "production": "J'ai ensuite modéliser les différents éléments présents, certains étant plus détaillés que d'autres comme l'épée ou le casque de Harold. L'établi est fait principalement de bois et les meubles aussi, cela m'a permis de réaliser différents types de bois tout en restant cohérent et en jouant avec différents types d'usures selon les endroits et les types de meubles.",
+        "lightAndCompo": " Pour le lighting je suis parti sur deux ambiances différentes, une plutôt de fin de journée mettant en avant les éléments présents sur le sol de l'établi et l'autre de nuit avec des sources lumineuses provenant du feu et des bougies mettant en avant les éléments présents sur le bureau de Harold. Grâce au compositing j'ai pu renforcer les ambiances et rajouter des détails comme les flammes des bougies."
+    },
+    "breakfast": {
+        "title": "PETIT DEJEUNER",
+        "intro": "L’objectif de ce projet était de créer une scène de petit déjeuner du quotidien.",
+        "references" : "J'ai récupéré des objets et éléments que j'ai pu trouver chez moi pour les avoirs en références. J'ai fait des recherches de cadrages sous forme de croquis me permettant de voir quelle compostion fonctionnerait le mieux.\n",
+        "production": "J'ai ensuite modélisé les différents éléments présents le plus fidèlement possible. J'ai fait de même pour les textures de manière à avoir un rendu le plus réaliste possible.",
+        "lightAndCompo": "Pour le lighting j'ai choisi une ambiance matinale plutôt chaleureuse mettant en avant les différents éléments présent sur la table."
+    },
+    "desk": {
+        "title": "BUREAU",
+        "intro": "L’objectif de ce projet était de créer une maquette en papier qui serait présente sur un bureau. J’ai choisi de représenter Zeus et Poséidon de la mythologie grecque ainsi que Médusa, Icare et Cerbère.\n\nJ’ai donc fait des croquis de cadrages ainsi que des premiers tests de modélisations à l’aide de références pour ensuite ajouter les texture et le lighting.\n\nJ’ai réalisé deux ambiances lumineuses différentes, une de jour mettant en avant la maquette et une de nuit avec  une lumière artificielle mettant en avant les personnages"
+    },
+    "teapot": {
+        "title": "THEIERE",
+        "intro": "L’objectif de ce projet était de modifier la modélisation d'une théière pour en faire une nouvelle puis de l'intégrer dans une photographie. J'ai choisi de créer une maquette d'une chapellerie.",
+        "references" : "J'ai tout d'abord cherché des références de différents chapeaux, de magasins, de maquettes en bois et de différentes textures pour ensuite faire un dessin de ce à quoi pourrait ressembler la théière.",
+        "production": "Pour la modélisation j'ai dû penser à différents détails que l'on retrouve sur des maquettes comme les points de colles. Les textures aussi ont été pensées avec un effet maquette de manière à retrouver des motifs assez visibles.",
+        "lightAndCompo": "Pour le lighting j'ai dû recréer le plus fidèlement l'ambiance lumineuse de la photographie que j'ai choisi pour que la teapot s'intègre correctement. J'ai aussi sorti au rendu les ombres à part de manière à pouvoir les intégrer correctement au compositing. Cela m'a aussi permis de retoucher au lighting pour qu'il soit encore plus cohérent et de rajouter du grain ainsi que de la compression correspondant le plus possible à la photographie."
+    },
+    "timelapse": {
+        "title": "TIMELAPSE",
+        "intro": "L’objectif de ce projet était de faire vieillir un objet ou un élément sous forme de timelapse. Il a donc fallu créer une version neuve et une version abimée de l’élément. J’ai choisi de représenter un robot gardien tiré du film Le Château dans le ciel du Studio ghibli.\n",
+        "references" : "J’ai tout d’abord commencé par chercher des références du robot gardien tirées du film pour voir à quoi il ressemble puis j’ai cherché des reconstitutions et des figurines du robot pour voir comment il a été reproduit. Pour l’environnement j’ai aussi regardé des références du film puis des références de lieux ayant un aspect similaire.\nAvec ces références j’ai réalisé des croquis du robot et de l'environnement de la manière dont je voulais les représenter, ainsi qu’un story board pour les quatre shots de l’animation.",
+        "production": "La modélisation du robot a été intéressante car j'ai dû détailler son ventre constitué de plusieurs plaques de métal ainsi que l'intérieur qui est visible. Une map de propagation m'a permis de faire passer le robot d'un cuivre simplement abimé à un cuivre beaucoup plus oxydé par le temps. \nLe décor est principalement constitué d’élément en pierre et de colonnes détruites. De la végétation est aussi présente pour renforcer le coté abandonné du lieu. J’ai donc dû trouver différentes manières de représenter de la pierre tout en gardant un aspect naturel et cohérent.",
+        "lightAndCompo": "Pour l’ambiance lumineuse je suis parti sur une ambiance chaleureuse de fin de journée pour arriver jusqu’à la nuit. Le lighting m’a permis de mettre en valeur le robot. Grâce au compositing j’ai pu ajouter un ciel à l’animation ainsi que renforcer mes intentions de lighting. J’ai aussi pu ajouter des détails comme des particules et des rayons de soleil"
+    },
+    "cameraMapping": {
+        "title": "CAMERA MAPPING",
+        "intro": "L’objectif de ce projet était de reprendre une illustration et de créer un mouvement de caméra permettant de bouger dans l'illustration. J'ai choisi une illustration de Sebastian LUCA.",
+        "production": "J'ai commencé par poser des lignes directrices sur les éléments principaux pour avoir une idée de comment placer la modélisation. Grâce à ça j'ai pu faire une première version de modélisation dans nuke que j'ai ensuite importé dans maya pour faire une modélisation plus propre et plus précise. Dans photoshop j'ai dû diviser l'illustration en différents calques en fonction des modélisations des éléments. Ensuite j'ai importé les différents calques et modélisation finies dans nuke pour effectuer une projection des calques sur la modélisation. J'ai aussi crée dans maya le mouvement de la caméra que j'ai importé dans nuke. Pour finir, pour ajouter des détails j'ai crée une fumée dans maya suivant le train que j'ai importé dans nuke, ainsi que des particules."
+    },
+    "anatomicalStudy": {
+        "title": "ETUDE ANATOMIQUE",
+        "intro": "L’objectif de ce projet était de réaliser la modélisation d’un squelette humain ainsi que les muscles du corps humain dans zbrush. Ce projet m’a permis de comprendre les différentes techniques et outils de modélisation dans zbrush pour de l’organique."
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "header": {
+        "portfolio": "Portfolio",
+        "about": "About Me",
+        "contact": "Contact",
+        "demoreel": "Demoreel",
+        "home": "Home"
+    },
+    "banner": {
+        "name": "Maëldan JOCHUM",
+        "job": "CGI Artist student"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "tooltip": "Click to see more of the project !"
+    },
+    "carrousel": {
+    },
+    "demoreel": {
+        "title": "Demoreel"
+    },
+    "resume": {
+        "title": "ABOUT MAËLDAN JOCHUM",
+        "content1": "My name is Maëldan Jochum, I am 21 years old, and I am a 3D animation student at ESMA (Ecole Supérieure des Métiers Artistiques).  I had the opportunity to take drawing classes at the public courses of the Beaux-Arts in Nantes for one year.",
+        "content2": "I have been passionate about the arts for several years, particularly 3D animated films and drawing.",
+        "content3": "I am especially fond of the steampunk style, miniature model effects, and stop-motion animation."
+    },
+    "reven": {
+        "title": "REVEN",
+        "intro": "I had the opportunity to complete a two-month internship with the team working on the graduation film Reven. As an intern, I was primarily responsible for lighting, rendering, and compositing on several shots. I also worked on camera mapping as well as modeling and surfacing for certain objects."
+    },
+    "insect": {
+        "title": "INSECT",
+        "intro": "The goal of this project was to create a complete insect, considering what it eats and where it lives to make it as realistic as possible. I chose to create an insect resembling a beetle.",
+        "references" : "First, I looked for references of existing beetles to use as inspiration. Using these references, I created sketches of what the beetle could look like. Then, I thought about its environment, keeping in mind that it feeds on mushrooms and bark, so I focused my research on these elements.",
+        "production": "The modeling of the beetle was interesting because it was the first time I created a living being. I modeled it in a way that retained the features I thought about during my research, especially the large horns on its shell that help it defend itself. The textures were also interesting to create because of the many variations present between the shell, body, and hairs. I also had to consider how the beetle lives in order to bring realism to the textures.",
+        "lightAndCompo": "For the lighting ambiance, I opted for a warm late afternoon atmosphere that highlights the insect and its surroundings. The compositing also allowed me to enhance the lighting atmosphere and add more realism and life with depth of field, the addition of particles, atmospheric perspective, and other details."
+    },
+    "heroesLair": {
+        "title": "HEROES LAIR",
+        "intro": "The goal of this project was to choose a fictional character and create what could be their lair. I chose the character Hiccup from DreamWorks' How to Train Your Dragon trilogy. I decided to design a sort of workshop for him, where he could create and store the inventions he makes for Toothless and himself.",
+        "references" : "I first looked for references in the films and art books of the trilogy to find the most important elements throughout the films that could be present in his workshop. I also searched for references to what the workshop might look like. Then, I made sketches for the different elements and the architecture of the place, which also allowed me to find the framing for the image.",
+        "production": "I then modeled the different elements present, some being more detailed than others, like Harold's sword or helmet. The workbench is mainly made of wood, and so are the furniture, which allowed me to create different types of wood while staying consistent and playing with various wear patterns depending on the location and type of furniture.",
+        "lightAndCompo": "For the lighting, I went for two different atmospheres: one is more of an end-of-day setting, highlighting the elements on the workbench floor, and the other is at night, with light sources coming from the fire and candles, emphasizing the items on Harold's desk. Thanks to compositing, I was able to enhance the moods and add details like the candle flames."
+    },
+    "breakfast": {
+        "title": "BREAKFAST",
+        "intro": "The goal of this project was to create a scene of an everyday breakfast.",
+        "references" : "I gathered objects and elements that I could find at home to have them as references. I did framing research in the form of sketches to see which composition would work best.",
+        "production": "I then modeled the different elements as faithfully as possible. I did the same for the textures in order to achieve the most realistic rendering possible.",
+        "lightAndCompo": "For the lighting, I chose a warm morning ambiance that highlights the different elements present on the table."
+    },
+    "desk": {
+        "title": "DESK",
+        "intro": "The objective of this project was to create a paper model that would sit on a desk. I chose to represent Zeus and Poseidon from Greek mythology, as well as Medusa, Icarus, and Cerberus.\n\nI started by sketching framing ideas and conducting initial modeling tests using references, then proceeded to add textures and lighting.\n\nI created two different lighting atmospheres: one during the day, highlighting the model, and another at night with artificial lighting to emphasize the characters."
+    },
+    "teapot": {
+        "title": "TEAPOT",
+        "intro": "The objective of this project was to modify the modeling of a teapot to create a new one and integrate it into a photograph. I chose to design a model of a hat shop.",
+        "references" : "I first looked for references of different hats, stores, wooden models, and various textures, and then made a drawing of what the teapot could look like.",
+        "production": "For the modeling, I had to think about various details found on scale models, such as glue points. The textures were also designed with a model effect, so the patterns are quite visible.",
+        "lightAndCompo": "For the lighting, I had to recreate the lighting ambiance of the photograph I chose as faithfully as possible so that the teapot would blend in correctly. I also rendered the shadows separately in order to integrate them properly into the compositing. This also allowed me to adjust the lighting to make it even more consistent and add grain and compression that closely matched the photograph."
+    },
+    "timelapse": {
+        "title": "TIMELAPSE",
+        "intro": "The objective of this project was to age an object or an element in the form of a timelapse. This involved creating both a new and a damaged version of the element. I chose to depict a guardian robot from the Studio Ghibli film Castle in the Sky.",
+        "references" : "I first started by looking for references of the guardian robot from the film to see what it looks like, then I searched for reconstructions and figurines of the robot to see how it has been reproduced. For the environment, I also looked at references from the film as well as locations with a similar appearance.\nUsing these references, I created sketches of the robot and the environment in the way I wanted to represent them, as well as a storyboard for the four shots of the animation.",
+        "production": "Modeling the robot was interesting because I had to detail its torso, made up of several metal plates, as well as the visible interior. A propagation map allowed me to transition the robot from slightly tarnished copper to copper that is much more oxidized over time.\nThe environment mainly consists of stone elements and ruined columns. Vegetation is also present to emphasize the abandoned nature of the place. I therefore had to find different ways to represent stone while maintaining a natural and coherent appearance.",
+        "lightAndCompo": "For the lighting atmosphere, I went for a warm end-of-day ambiance transitioning into nighttime. The lighting allowed me to highlight the robot. Through compositing, I was able to add a sky to the animation and enhance my lighting intentions. I also added details such as particles and sun rays."
+    },
+    "cameraMapping": {
+        "title": "CAMERA MAPPING",
+        "intro": "The goal of this project was to take an illustration and create a camera movement that allows navigation within the illustration. I chose an artwork by Sebastian LUCA.",
+        "production": "I started by laying out guidelines for the main elements to get an idea of how to position the modeling. Thanks to this, I was able to create a first version of the modeling in Nuke, which I then imported into Maya to make a cleaner and more precise model. In Photoshop, I had to break the illustration into different layers based on the modeling of the elements. Then, I imported the various layers and finished models into Nuke to project the layers onto the model. I also created the camera movement in Maya, which I imported into Nuke. Finally, to add details, I created smoke in Maya following the train, which I imported into Nuke, along with some particles."
+    },
+    "anatomicalStudy": {
+        "title": "ANATOMIOCAL STUDY",
+        "intro": "The objective of this project was to create a 3D model of a human skeleton as well as the muscles of the human body in ZBrush. This project allowed me to learn and understand various modeling techniques and tools in ZBrush for organic modeling."
+    }
+}
