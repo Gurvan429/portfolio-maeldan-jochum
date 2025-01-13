@@ -16,6 +16,7 @@
           <div id="content">
             <iframe src="https://www.youtube.com/embed/0xDkuKqj3P0?si=7xoH-ksWWAwNa42F" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <img src="../assets/projects/teapot/Teapot_Comp.png" alt="">
+            <img src="../assets/projects/teapot/Rolling_Teapot_Concept.png" alt="">
           </div>
           <p>{{this.$t("teapot.references")}}</p>
           <p>{{this.$t("teapot.production")}}</p>

@@ -76,6 +76,7 @@
           <p>{{this.$t("resume.content1")}}</p>
           <p>{{this.$t("resume.content2")}}</p>
           <p>{{this.$t("resume.content3")}}</p>
+          <p style="font-weight: bold">m.jochum@nts.ecolescreatives.com</p>
         </div>
         <div id="line"></div>
         <div id="socialLinks">
@@ -331,7 +332,7 @@ body.modal-open {
 }
 
 #aboutMe{
-  height: 30vw;
+  height: 33vw;
   background-color: #526252;
   border-top: black solid 1px;
   background-image: linear-gradient(rgba(82, 98, 82, 0.5), rgba(82, 98, 82, 0.8)), url("./assets/simple-cardboard-texture-background.jpg");

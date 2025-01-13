@@ -14,8 +14,8 @@
         <div id="intro">
           <p>{{this.$t("anatomicalStudy.intro")}}</p>
           <div id="content">
-            <img style="width: 97%;" src="../assets/projects/anatomical_study/Jochum_Maeldan_3d3_etude_musculaire_CharacterSheet_Gray.png" alt="">
             <img style="width: 97%;" src="../assets/projects/anatomical_study/Squelette_V07.png" alt="">
+            <img style="width: 97%;" src="../assets/projects/anatomical_study/Jochum_Maeldan_3d3_etude_musculaire_CharacterSheet_Gray.png" alt="">
             <img style="width: 97%;" src="../assets/projects/anatomical_study/ref2.png" alt="">
             <img style="width: 47%;" src="../assets/projects/anatomical_study/ref1.png" alt="">
             <img style="width: 47%;" src="../assets/projects/anatomical_study/ref3.png" alt="">

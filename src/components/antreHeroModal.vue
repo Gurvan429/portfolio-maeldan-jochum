@@ -15,8 +15,11 @@
           <p>{{this.$t("heroesLair.intro")}}</p>
           <div id="content">
             <iframe src="https://www.youtube.com/embed/mKOeI9c8l2s?si=eJ2IRY4uv1u-suFE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="../assets/projects/antre_hero/Jochum_Maeldan_Antre_Brut_Jour_02.png" alt="">
+            <img src="../assets/projects/antre_hero/Jochum_Maeldan_Antre_Brut_Nuit_02.png" alt="">
             <img src="../assets/projects/antre_hero/zoom_01.png" alt="">
             <img src="../assets/projects/antre_hero/zoom_02.png" alt="">
+            <img style="width: 97%" src="../assets/projects/antre_hero/refs.png" alt="">
           </div>
           <p>{{this.$t("heroesLair.references")}}</p>
           <p>{{this.$t("heroesLair.production")}}</p>
