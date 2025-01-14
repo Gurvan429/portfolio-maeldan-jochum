@@ -21,7 +21,11 @@
         "title": "A PROPOS DE MAËLDAN JOCHUM",
         "content1": "Je m’appelle Maëldan Jochum, j’ai 21 ans et je suis étudiant en cursus d’animation 3D à l’ESMA (Ecole Supérieure des Métiers Artistiques). J’ai eu l’occasion de suivre des cours de dessin aux cours publiques des Beaux-Arts de Nantes pendant un an. ",
         "content2": "Je suis passionné depuis plusieurs années par les domaines artistiques et plus précisément le cinéma d’animation 3D et le dessin",
-        "content3": " J’aime beaucoup le style steampunk, effet maquette ainsi que le stopmotion."
+        "content3": " J’aime beaucoup le style steampunk, effet maquette ainsi que le stopmotion.",
+        "copywrites": {
+            "website": "© 2025 Gurvan JOCHUM - Site web",
+            "content": "© 2025 Maëldan JOCHUM - Animations et illustrations"
+        }
     },
     "reven": {
         "title": "REVEN",

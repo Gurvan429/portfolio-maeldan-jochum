@@ -84,6 +84,9 @@
           <a href="http://artstation.com/maeldan_j" target="_blank"><img src="./assets/artstation__icon.png" alt="arstation link"></a>
         </div>
       </div>
+      <div id="copywrites">
+        <p>{{this.$t("resume.copywrites.website")}} | {{this.$t("resume.copywrites.content")}}</p>
+      </div>
     </section>
   </div>
 </template>
@@ -338,7 +341,9 @@ body.modal-open {
   background-image: linear-gradient(rgba(82, 98, 82, 0.5), rgba(82, 98, 82, 0.8)), url("./assets/simple-cardboard-texture-background.jpg");
   background-size: cover;
   display: flex;
-  justify-content: center;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
   #resume{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    margin: auto;
@@ -492,6 +497,7 @@ body.modal-open {
   transform: translate(0, 0); /* Supprime les éventuels décalages */
   transition: opacity 0.2s ease; /* Animation d'apparition si besoin */
 }
+
 
 
 </style>
