@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("heroesLair.intro")}}</p>
-          <div id="content">
+        <div id="content">
+          <p id="intro">{{this.$t("heroesLair.intro")}}</p>
+          <div >
             <iframe src="https://www.youtube.com/embed/mKOeI9c8l2s?si=eJ2IRY4uv1u-suFE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <img src="../assets/projects/antre_hero/Jochum_Maeldan_Antre_Brut_Jour_02.png" alt="">
             <img src="../assets/projects/antre_hero/Jochum_Maeldan_Antre_Brut_Nuit_02.png" alt="">
@@ -24,6 +24,11 @@
           <p>{{this.$t("heroesLair.references")}}</p>
           <p>{{this.$t("heroesLair.production")}}</p>
           <p>{{this.$t("heroesLair.lightAndCompo")}}</p>
+          <div id="softwaresLogos">
+            <img src="../assets/softwares_logos/logo_Maya.png" alt="">
+            <img src="../assets/softwares_logos/logo_RenderMan.png" alt="">
+            <img src="../assets/softwares_logos/logo_photoshop.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -97,6 +102,16 @@ export default {
 }
 
 #content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   iframe{
@@ -107,6 +122,16 @@ export default {
   img{
     width: 47%;
     margin: 1vw;
+  }
+  #softwaresLogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 64px;
+      width: 64px;
+    }
   }
 }
 

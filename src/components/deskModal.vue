@@ -11,15 +11,18 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("desk.intro")}}</p>
-        </div>
-        <div id="pictures">
+        <div id="content">
+          <p id="intro">{{this.$t("desk.intro")}}</p>
           <img src="../assets/projects/desk/JOCHUM_Maeldan_3D1B_Bureau_Lighting_Jour.png" alt="">
           <img src="../assets/projects/desk/JOCHUM_Maeldan_3D1B_Bureau_Lighting_Nuit.png" alt="">
           <img src="../assets/projects/desk/Jochum_Maeldan_3D1B_Bureau_Modeling_Occlusion.png" alt="">
           <img src="../assets/projects/desk/Jochum_Maeldan_3D1B_Bureau_Modeling_Wireframe_On_Shaded.png" alt="">
-          <img src="../assets/projects/desk/Planche_rendu.png" alt="">
+          <img style="width: 97%" src="../assets/projects/desk/Planche_rendu.png" alt="">
+          <div id="softwaresLogos">
+            <img src="../assets/softwares_logos/logo_Maya.png" alt="">
+            <img src="../assets/softwares_logos/logo_RenderMan.png" alt="">
+            <img src="../assets/softwares_logos/logo_photoshop.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -92,12 +95,32 @@ export default {
   overflow-x: hidden; /* Empêche le scroll horizontal */
 }
 
-#pictures{
+#content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   img{
     width: 47%;
     margin: 1vw;
+  }
+  #softwaresLogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 64px;
+      width: 64px;
+    }
   }
 }
 

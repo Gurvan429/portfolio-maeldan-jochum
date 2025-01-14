@@ -11,14 +11,17 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("anatomicalStudy.intro")}}</p>
-          <div id="content">
+        <div id="content">
+          <p id="intro">{{this.$t("anatomicalStudy.intro")}}</p>
+          <div >
             <img style="width: 97%;" src="../assets/projects/anatomical_study/Squelette_V07.png" alt="">
             <img style="width: 97%;" src="../assets/projects/anatomical_study/Jochum_Maeldan_3d3_etude_musculaire_CharacterSheet_Gray.png" alt="">
             <img style="width: 97%;" src="../assets/projects/anatomical_study/ref2.png" alt="">
             <img style="width: 47%;" src="../assets/projects/anatomical_study/ref1.png" alt="">
             <img style="width: 47%;" src="../assets/projects/anatomical_study/ref3.png" alt="">
+          </div>
+          <div id="softwaresLogos">
+            <img src="../assets/softwares_logos/logo_zbrush.png" alt="">
           </div>
         </div>
       </div>
@@ -94,6 +97,16 @@ export default {
 }
 
 #content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   iframe{
@@ -103,6 +116,16 @@ export default {
   }
   img{
     margin: 1vw;
+  }
+  #softwaresLogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 64px;
+      width: 64px;
+    }
   }
 }
 

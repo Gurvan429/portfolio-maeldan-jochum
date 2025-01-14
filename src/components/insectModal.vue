@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("insect.intro")}}</p>
-          <div id="content">
+        <div id="content">
+          <p id="intro">{{this.$t("insect.intro")}}</p>
+          <div >
             <iframe src="https://www.youtube.com/embed/QvZH5LlUJds?si=nkm1-xHCWdnr_goF" title="Insect rookies" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe src="https://www.youtube.com/embed/EiMIv4QwSP8?si=UrDBYl9S-F5sJ8K4" title="Insect makingOf" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <img src="../assets/projects/insecte/ref_decor.png" alt="">
@@ -22,6 +22,14 @@
           <p>{{this.$t("insect.references")}}</p>
           <p>{{this.$t("insect.production")}}</p>
           <p>{{this.$t("insect.lightAndCompo")}}</p>
+          <div id="softwaresLogos">
+            <img src="../assets/softwares_logos/logo_Maya.png" alt="">
+            <img src="../assets/softwares_logos/logo_zbrush.png" alt="">
+            <img src="../assets/softwares_logos/logo_Substance_3D_Painter.png" alt="">
+            <img src="../assets/softwares_logos/logo_RenderMan.png" alt="">
+            <img src="../assets/softwares_logos/logo_nuke.png" alt="">
+            <img src="../assets/softwares_logos/logo_davinci_Resolve.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -95,6 +103,16 @@ export default {
 }
 
 #content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   iframe{
@@ -105,6 +123,16 @@ export default {
   img{
     width: 47%;
     margin: 1vw;
+  }
+  #softwaresLogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 64px;
+      width: 64px;
+    }
   }
 }
 

@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("reven.intro")}}</p>
-          <div id="content">
+        <div id="content">
+          <p id="intro">{{this.$t("reven.intro")}}</p>
+          <div >
             <iframe src="https://www.youtube.com/embed/jkWWCU_4MCs?si=pgXNpR8SyyvhzlZJ" title="reven shot 1" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe src="https://www.youtube.com/embed/a_qu93D6dgU?si=JSYvlgNtGXd1AC9c" title="reven shot 2" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe src="https://www.youtube.com/embed/1B4V01JFCRY?si=RDqfW_lZeRxy5M8q" title="reven shot 3" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -92,6 +92,16 @@ export default {
 }
 
 #content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   iframe{

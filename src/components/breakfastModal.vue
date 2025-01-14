@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="main">
-        <div id="intro">
-          <p>{{this.$t("breakfast.intro")}}</p>
-          <div id="pictures">
+        <div id="content">
+          <p id="intro">{{this.$t("breakfast.intro")}}</p>
+          <div>
             <img src="../assets/projects/breakfast/liiight12.png" alt="">
             <img src="../assets/projects/breakfast/liiight11.png" alt="">
             <img src="../assets/projects/breakfast/JOCHUM_Maeldan_3D1B_PetitDejeuner_Niveaux_Gris.png" alt="">
@@ -22,11 +22,16 @@
             <img src="../assets/projects/breakfast/Screenshot_1.png" alt="">
             <img src="../assets/projects/breakfast/Screenshot_2.png" alt="">
             <img src="../assets/projects/breakfast/Screenshot_3.png" alt="">
-            <img src="../assets/projects/breakfast/Scene.png" alt="">
+            <img style="width: 97%" src="../assets/projects/breakfast/Scene.png" alt="">
           </div>
           <p>{{this.$t("breakfast.references")}}</p>
           <p>{{this.$t("breakfast.production")}}</p>
           <p>{{this.$t("breakfast.lightAndCompo")}}</p>
+          <div id="softwaresLogos">
+            <img src="../assets/softwares_logos/logo_Maya.png" alt="">
+            <img src="../assets/softwares_logos/logo_RenderMan.png" alt="">
+            <img src="../assets/softwares_logos/logo_photoshop.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -99,12 +104,32 @@ export default {
   overflow-x: hidden;
 }
 
-#pictures{
+#content{
+  #intro{
+    border-bottom: 1px solid black;
+    padding: 1vw;
+  }
+  p{
+    text-align:justify;
+    padding: 0.5vw;
+    margin: auto;
+    font-size: 1.2vw;
+  }
   width: 90%;
   margin: auto;
   img{
     width: 47%;
     margin: 1vw;
+  }
+  #softwaresLogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 64px;
+      width: 64px;
+    }
   }
 }
 
