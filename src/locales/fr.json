@@ -78,5 +78,26 @@
     "anatomicalStudy": {
         "title": "ETUDE ANATOMIQUE",
         "intro": "L’objectif de ce projet était de réaliser la modélisation d’un squelette humain ainsi que les muscles du corps humain dans zbrush. Ce projet m’a permis de comprendre les différentes techniques et outils de modélisation dans zbrush pour de l’organique."
+    },
+    "tracking": {
+        "title": "TRAVELLING",
+        "intro": "L’objectif de ce projet était d’intégrer un objet ou élément reproduit en 3D à une vidéo en prise de vue réelle. Un tracking a donc été effectué sur la vidéo afin de récupérer le mouvement de caméra pour pouvoir intégrer correctement l’objet. ",
+        "references": "J’ai choisi d’intégrer un perchoir en métal sur la branche d’un arbre. J’ai donc réalisé la modélisation ainsi que les textures de manière à ce qu’il soit le plus réaliste possible. ",
+        "production" : "Je l’ai intégré à la vidéo en reproduisant une partie de l’arbre en modélisation pour pouvoir placer correctement le perchoir dans l’espace 3D. J’ai pu ensuite rajouter un lighting semblable à celui de la vidéo.",
+        "lightAndCompo" : "Pour intégrer l’élément de manière plus réaliste j’ai pu au compositing rajouter les ombres sur la branche sur laquelle repose le perchoir ainsi que du grain semblable à la compression de la vidéo d’origine et aussi la modification d’élément comme la colorimétrie du rendu de l’objet pour donner l’impression que le perchoir faisait partie de la vidéo."
+    },
+    "selfPortrait": {
+        "title": "L'AUTOPORTRAIT",
+        "intro": "L’objectif de ce projet était de réaliser un autoportrait.",
+        "references": "J’ai donc commencé par la base de la modélisation dans zbrush pour avoir une forme de visage correspondant à la mienne. Ensuite j’ai fait la retopologie du visage pour avoir un maillage de meilleure qualité pour ensuite déplier les UV. ",
+        "production" : "Après ça j’ai pu commencer à texturer le visage dans mari en commençant par le displace de la peau pour ensuite ajouter les différentes teintes et détails tels que les grains de beautés, les cernes et les boutons. Pour les cheveux et les différentes zones avec des poils j’ai utilisé xgen pour avoir un rendu le plus réaliste possible. ",
+        "lightAndCompo" : "Après avoir réalisé toutes les textures j’ai dû reproduire les lighting de trois références photos pour ensuite rajouter du compositing afin d’être le plus fidèle aux références."
+    },
+    "vehicle": {
+        "title": "LE VEHICULE",
+        "intro": "L’objectif de ce projet était de réinventer un véhicule présent dans un film, film d’animation à notre manière tout en respectant les codes et design de l’univers choisi mais avec un rendu réaliste. ",
+        "references": "J’ai choisi de réinventer l’avion permettant aux personnages principaux de s’enfuir d’une prison dans le film d’animation Avril et le monde truqué de Franck Ekinci Christian Desmares avec le style graphique de Jacques Tardi.",
+        "production" : "Cet avion ayant été repêché dans un fleuve j’ai dû penser lors de la modélisation à ajouter des éléments abimé, cabossés. Lors de la création des texture j’ai aussi ajouté de la rouille,  des salissures ainsi que des traces d’algues sur certaines parties de l’avion. ",
+        "lightAndCompo" : "L’objectif était aussi de créer une vidéo de showroom à partir du véhicule. J’ai choisi de le placer dans une sorte de hangar pour ensuite venir mettre en place les différents mouvements de caméra ainsi que le lighting. Grace au compositing j’ai pu ajouter du réalise au showroom ainsi que renforcer mes intentions de lighting."
     }
 }

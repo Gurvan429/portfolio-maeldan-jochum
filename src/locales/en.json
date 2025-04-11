@@ -80,5 +80,29 @@
     "anatomicalStudy": {
         "title": "ANATOMIOCAL STUDY",
         "intro": "The objective of this project was to create a 3D model of a human skeleton as well as the muscles of the human body in ZBrush. This project allowed me to learn and understand various modeling techniques and tools in ZBrush for organic modeling."
+    },
+    "tracking": {
+        "title": "TRACKING",
+        "intro": "The goal of this project was to integrate a 3D-reproduced object or element into a live-action video. Tracking was therefore performed on the video to capture the camera movement, allowing the object to be properly integrated.",
+        "references": "I chose to integrate a metal perch onto the branch of a tree. I modeled and textured it in a way that aimed to make it as realistic as possible.",
+        "production": "I integrated it into the video by modeling part of the tree to correctly position the perch in the 3D space. I then added lighting similar to that in the video.",
+        "lightAndCompo": "To make the integration more realistic, I added shadows on the branch where the perch rests during compositing, as well as grain similar to the original video’s compression. I also adjusted elements such as the object’s color grading to give the impression that the perch was part of the video."
+
+    },
+    "selfPortrait": {
+        "title": "SELF-PORTRAIT",
+        "intro": "The goal of this project was to create a self-portrait.",
+        "references": "I started by modeling the base in ZBrush to get a facial shape that matched my own. Then, I did the retopology of the face to obtain a cleaner mesh and proceeded to unwrap the UVs.",
+        "production": "After that, I began texturing the face in Mari, starting with the skin displacement, followed by adding different tones and details such as beauty marks, dark circles, and pimples. For the hair and other areas with facial hair, I used XGen to achieve the most realistic result possible.",
+        "lightAndCompo": "Once all the textures were done, I recreated the lighting from three photo references and then added compositing work to stay as true to the references as possible."
+
+    },
+    "vehicle": {
+        "title": "VEHICLE",
+        "intro": "The goal of this project was to reinvent a vehicle from a movie or animated film in our own way, while respecting the visual style and design codes of the chosen universe, but with a realistic rendering.",
+        "references": "I chose to reinvent the plane used by the main characters to escape from prison in the animated film *April and the Extraordinary World* by Franck Ekinci and Christian Desmares, featuring the graphic style of Jacques Tardi.",
+        "production": "Since the plane had been recovered from a river, I had to consider adding damaged and dented elements during the modeling phase. When creating the textures, I also added rust, dirt, and traces of algae on certain parts of the aircraft.",
+        "lightAndCompo": "The goal was also to create a showroom-style video for the vehicle. I chose to place it in a kind of hangar, then set up various camera movements and lighting. Through compositing, I was able to enhance the realism of the showroom and reinforce my lighting intentions."
+
     }
 }

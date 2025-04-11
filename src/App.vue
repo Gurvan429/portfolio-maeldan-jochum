@@ -19,6 +19,18 @@
             <reven-modal v-bind:show="show" v-bind:toggleModale="toggleModale"></reven-modal>
             <img v-on:click="toggleModale" src="./assets/projects/reven/Screenshot_1.png" alt="Image 1" />
           </div>
+          <div class="item ">
+            <self-portrait-modal v-bind:show="show" v-bind:toggleModale="toggleModale"></self-portrait-modal>
+            <img v-on:click="toggleModale" src="./assets/projects/self_portrait/banniere_autoportrait.png" alt="Image 1" />
+          </div>
+          <div class="item ">
+            <vehicle-modal v-bind:show="show" v-bind:toggleModale="toggleModale"></vehicle-modal>
+            <img v-on:click="toggleModale" src="./assets/projects/vehicle/banniere_vehicule.png" alt="Image 1" />
+          </div>
+          <div class="item ">
+            <tracking-modal v-bind:show="show" v-bind:toggleModale="toggleModale"></tracking-modal>
+            <img v-on:click="toggleModale" src="./assets/projects/tracking/Banniere.png" alt="Image 1" />
+          </div>
           <div class="item">
             <timelapse-modal v-bind:show="show" v-bind:toggleModale="toggleModale"></timelapse-modal>
             <img v-on:click="toggleModale" src="./assets/projects/timelapse/banniere.png" alt="Image 6" />
@@ -102,6 +114,9 @@ import BreakfastModal from "@/components/breakfastModal.vue";
 import TimelapseModal from "@/components/timelapseModal.vue";
 import CameraMappingModal from "@/components/cameraMappingModal.vue";
 import AnatomicalStudyModal from "@/components/anatomicalStudyModal.vue";
+import TrackingModal from "@/components/trackingModal.vue";
+import SelfPortraitModal from "@/components/selfPortraitModal.vue";
+import VehicleModal from "@/components/vehicle.vue";
 
 export default {
   name: 'App',
@@ -111,6 +126,9 @@ export default {
     }
   },
   components: {
+    VehicleModal,
+    SelfPortraitModal,
+    TrackingModal,
     TimelapseModal,
     HeaderComponent,
     RevenModal,
