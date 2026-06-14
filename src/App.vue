@@ -94,6 +94,7 @@
         <div id="socialLinks">
           <a href="http://www.linkedin.com/in/ma%C3%ABldan-jochum-b7a9a8266" target="_blank"><img src="./assets/linkedin_icon.png" alt="linkedin link"></a>
           <a href="http://artstation.com/maeldan_j" target="_blank"><img src="./assets/artstation__icon.png" alt="arstation link"></a>
+          <a href="https://canva.link/yr63mjsvv9lcbyp" target="_blank"><img src="./assets/cv-et-cv.png" alt="arstation link"></a>
         </div>
       </div>
       <div id="copywrites">
