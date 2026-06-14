@@ -24,6 +24,7 @@
           <p>{{this.$t("selfPortrait.lightAndCompo")}}</p>
           <div id="softwaresLogos">
             <img src="../assets/softwares_logos/logo_Maya.png" alt="">
+            <img src="../assets/softwares_logos/logo_mari.png" alt="">
             <img src="../assets/softwares_logos/logo_zbrush.png" alt="">
             <img src="../assets/softwares_logos/logo_RenderMan.png" alt="">
             <img src="../assets/softwares_logos/logo_nuke.png" alt="">

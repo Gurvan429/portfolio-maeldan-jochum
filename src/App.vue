@@ -78,7 +78,7 @@
     <section id="demoreel">
       <h1>{{this.$t("demoreel.title")}}</h1>
       <div class="videoContainer">
-        <iframe src="https://player.vimeo.com/video/1040853509?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen;" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/1200989398?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen;" allowfullscreen></iframe>
       </div>
     </section>
     <section id="aboutMe">
